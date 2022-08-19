@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "rwmp2022"
+version = "0.1.0"
+description = "package for RWMP in Santa Barbara County with utility functions to prepare data and run evacuation modeling"
+authors = ["barguzin"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
